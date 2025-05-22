@@ -1,0 +1,36 @@
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.subtitle {
+    margin-top: -16px;
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+
+.section-title {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.primary-span {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+:root {
+    /*For text*/
+    --primary-color: #3498db;
+    --secondary-color: #3d5a80;
+    --tertiary-color: #fdc500;
+
+    /*For backgrounds*/
+    --bg-primary-color: #3d5a80;
+    --bg-secondary-color: #485870;
+    --bg-tertiary-color: #808890;
+    --bg-quaternary-color: #b0b0b8;
+}
